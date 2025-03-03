@@ -1,1 +1,2 @@
 # cooked-wiki-prefixer
+works!
