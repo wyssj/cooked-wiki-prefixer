@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Cooked Wiki Prefixer",
+  "version": "1.0",
+  "description": "Prepends cooked.wiki/ to the current tab's URL when clicked",
+  "permissions": [ "tabs", "activeTab" ],
+  "action": {
+    "default_title": "Prefix URL"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
